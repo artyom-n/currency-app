@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+    min-width: 70px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cell-wrap {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+    padding-top: 7px;    
+    
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.curr-block {
+    margin-top: 16px;
+    display: flex;
+    max-width: 260px;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    justify-content: center;  
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 11px;    
+}
+
+.curr-select {
+    width: 100%;    
+    margin: 5px;
+    max-width: 70px;     
+    background-color: rgb(212, 208, 208);  
+    text-transform: lowercase;  
+    text-align: center;
+    cursor: pointer;    
+}
+
+.sel-curr {
+    cursor: pointer;
+}
+
+.circle-x {
+    position: relative;  
+    left: 25%;
+    bottom: 40%;   
+    color: red;
+}
